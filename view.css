@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 1s ease-in-out;
+  font-family: Jost;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.projectPage {
+  background: #242424;
+  height: auto;
+}
+.projectPage h2 {
+  color: white;
+  font-size: 50px;
+  margin-left: 68px;
+  padding-top: 60px;
+  text-shadow: 2px 2px black;
+}
+
+.line {
+  background: #3C3C3C;
+  width: 50%;
+  border-radius: 20px;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+.line h3 {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.line h3:hover {
+  color: #FF4900;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  gap: 40px;
+  margin: 0 50px;
+  margin-top: 60px;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4,
+.pro5,
+.pro6,
+.pro7,
+.pro8,
+.pro9,
+.pro10,
+.pro11,
+.pro12 {
+  position: relative;
+  width: 100%;
+}
+.pro1 .img,
+.pro2 .img,
+.pro3 .img,
+.pro4 .img,
+.pro5 .img,
+.pro6 .img,
+.pro7 .img,
+.pro8 .img,
+.pro9 .img,
+.pro10 .img,
+.pro11 .img,
+.pro12 .img {
+  width: 100%;
+}
+.pro1 .img img,
+.pro2 .img img,
+.pro3 .img img,
+.pro4 .img img,
+.pro5 .img img,
+.pro6 .img img,
+.pro7 .img img,
+.pro8 .img img,
+.pro9 .img img,
+.pro10 .img img,
+.pro11 .img img,
+.pro12 .img img {
+  width: 100%;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text9,
+.text10,
+.text11,
+.text12 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(100deg, #FF4900, transparent);
+}
+.text1 h4,
+.text2 h4,
+.text3 h4,
+.text4 h4,
+.text5 h4,
+.text6 h4,
+.text7 h4,
+.text8 h4,
+.text9 h4,
+.text10 h4,
+.text11 h4,
+.text12 h4 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px black;
+}/*# sourceMappingURL=view.css.map */

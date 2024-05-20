@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 1s ease-in-out;
+  font-family: Jost;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contact {
+  background: #242424;
+  height: 100vh;
+}
+.contact h2 {
+  color: white;
+  font-size: 50px;
+  margin-left: 68px;
+  padding-top: 60px;
+  text-shadow: 2px 2px black;
+}
+
+.details {
+  margin-top: 50px;
+}
+
+.box1, .box2, .box3, .box4 {
+  width: 40%;
+  height: 15vh;
+  background: #3C3C3C;
+  margin-left: 68px;
+}
+.box1 h4, .box2 h4, .box3 h4, .box4 h4 {
+  font-size: 34px;
+  color: white;
+  padding-left: 184px;
+  padding-top: 10px;
+}
+.box1 p, .box2 p, .box3 p, .box4 p {
+  font-size: 22px;
+  color: white;
+  padding-left: 184px;
+}
+
+.box2 {
+  margin-top: 25px;
+}
+
+.box3 {
+  margin-top: 25px;
+}
+
+.box4 {
+  margin-top: 25px;
+}/*# sourceMappingURL=hire.css.map */

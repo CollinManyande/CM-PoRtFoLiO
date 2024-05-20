@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out;
+    font-family: Jost;
+}
+html{
+    scroll-behavior: smooth;
+}
+.what{
+    background: #242424;
+    height: 100vh;
+    h2{
+        color: #FFFF;
+        font-size: 50px;
+        margin-left: 68px;
+        padding-top: 60px;
+        text-shadow: 2px 2px black;
+    }
+}
+.container{
+    margin-top: 50px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.first1, .first2, .first3{
+    width: 25%;
+    height: 32vh;
+    background: #3C3C3C;
+    justify-content: center;
+    padding-top: 130px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px;
+    font-size: 22px;
+
+    h3 {
+        color: #FFFF;
+        font-weight: 700;
+    }
+}
+.first1:hover{
+    background: #FF4900;
+}
+.first2:hover{
+    background: #FF4900;
+}
+.first3:hover{
+    background: #FF4900;
+}
+.frst{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 80px;
+}
+.first4, .first5, .first6{
+    width: 25%;
+    height: 32vh;
+    background: #3C3C3C;
+    justify-content: center;
+    padding-top: 130px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px;
+    font-size: 22px;
+
+    h3 {
+        color: #FFFF;
+    }
+}
+.first4:hover{
+    background: #FF4900;
+}
+.first5:hover{
+    background: #FF4900;
+}
+.first6:hover{
+    background: #FF4900;
+}
