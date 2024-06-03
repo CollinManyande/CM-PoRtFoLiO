@@ -12,7 +12,7 @@ html {
 
 .what {
   background: #242424;
-  height: 100vh;
+  height: 112vh;
 }
 .what h2 {
   color: white;
@@ -29,67 +29,109 @@ html {
 .first {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 60px;
 }
 
 .first1, .first2, .first3 {
-  width: 25%;
-  height: 32vh;
+  width: 28%;
+  height: 35vh;
   background: #3C3C3C;
   justify-content: center;
-  padding-top: 130px;
+  padding-top: 70px;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px;
   font-size: 22px;
+  box-shadow: 1px 1px 3px #FF4900;
 }
 .first1 h3, .first2 h3, .first3 h3 {
   color: white;
   font-weight: 700;
 }
 
-.first1:hover {
-  background: #FF4900;
+.ddImage {
+  width: 100%;
+}
+.ddImage img {
+  width: 18%;
 }
 
-.first2:hover {
-  background: #FF4900;
+.reImage {
+  width: 100%;
+}
+.reImage img {
+  width: 18%;
 }
 
-.first3:hover {
-  background: #FF4900;
+.sImage {
+  width: 100%;
+}
+.sImage img {
+  width: 18%;
 }
 
 .frst {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  gap: 80px;
+  gap: 60px;
 }
 
 .first4, .first5, .first6 {
-  width: 25%;
-  height: 32vh;
+  width: 28%;
+  height: 35vh;
   background: #3C3C3C;
   justify-content: center;
-  padding-top: 130px;
+  padding-top: 70px;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px;
   font-size: 22px;
+  box-shadow: 1px 1px 3px #FF4900;
 }
 .first4 h3, .first5 h3, .first6 h3 {
   color: white;
 }
 
-.first4:hover {
-  background: #FF4900;
+.usImage {
+  width: 100%;
+}
+.usImage img {
+  width: 18%;
 }
 
-.first5:hover {
-  background: #FF4900;
+.cImage {
+  width: 100%;
+}
+.cImage img {
+  width: 18%;
 }
 
-.first6:hover {
-  background: #FF4900;
+.interImage {
+  width: 100%;
+}
+.interImage img {
+  width: 18%;
+}
+
+.first1:hover img {
+  transform: scale(1.1);
+}
+
+.first2:hover img {
+  transform: scale(1.1);
+}
+
+.first3:hover img {
+  transform: scale(1.1);
+}
+
+.first4:hover img {
+  transform: scale(1.1);
+}
+
+.first5:hover img {
+  transform: scale(1.1);
+}
+
+.first6:hover img {
+  transform: scale(1.1);
 }/*# sourceMappingURL=do.css.map */
